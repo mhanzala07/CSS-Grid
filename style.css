@@ -1,0 +1,59 @@
+body{
+    background-color: #292e56;
+}
+h1{
+    text-align: center;
+    color: #ffffff;
+}
+.container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns:repeat(4 , 1fr);
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.box{
+    padding: 70px;
+}
+.green{
+    background-color: #46c058;
+}
+.yellow{
+    background-color:#ffae22 ;
+}
+.red{
+    background-color:#ff101a; ;
+}
+
+#box-2{
+    grid-column: 2 / 4;
+    color: #46c058;
+}
+#box-1{
+    grid-row: 1 / 4;
+    color: #46c058;
+}
+#box-6{
+    grid-column: 4 / 5;
+    grid-row: 2 / 4;
+    color: #46c058;
+}
+#box-3{
+    color: #ff101a;
+}
+#box-4{
+    color: #ffae22;
+}
+
+#box-5{
+    color: #ff101a;
+}
+
+#box-7{
+    color: #ff101a;
+}
+
+#box-8{
+    color: #ffae22;
+}
